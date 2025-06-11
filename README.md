@@ -10,9 +10,10 @@ The interface is clean, tab-based, and dynamically updates with user actions.
 
 Interface preview:
 
-<img src="screenshots/owners_tab.png" width="400"/>
-<img src="screenshots/pets_tab.png" width="400"/>
-
+<img src="screenshots/1.png" width="400"/>
+<img src="screenshots/2.png" width="400"/>
+<img src="screenshots/3.png" width="400"/>
+<img src="screenshots/4.png" width="400"/>
 ---
 
 ## 💡 Features
