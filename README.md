@@ -11,16 +11,16 @@ The interface is clean, tab-based, and dynamically updates with user actions.
 Interface preview:
 
 <img src="screenshots/1.png" width="400"/>
-<img src="screenshots/2.png" width="400"/>
 <img src="screenshots/3.png" width="400"/>
 <img src="screenshots/4.png" width="400"/>
+<img src="screenshots/2.png" width="400"/>
 ---
 
 ## 💡 Features
 
 ### 👥 Owners
 - Add, edit, delete owners
-- Search owners by name
+- Search owners
 - View a table of owners (name, phone, email)
 
 ### 🐶 Pets
@@ -29,12 +29,12 @@ Interface preview:
   - Species
   - Birth date
   - Owner (linked by foreign key)
-- Filter pets by owner
-- Tables refresh automatically after changes
+- Search pets
 
 ### 📅 Visits
 - Add, edit, delete, and view visits
 - Each visit is linked to a pet (and indirectly to its owner)
+- Search visits
 
 ### 🔍 Visit Search
 - Filter visits by:
@@ -51,8 +51,8 @@ Interface preview:
 ## 🧱 Technologies Used
 
 - Java (Swing GUI)
-- JDBC (database connection)
-- Relational Database (H2, MySQL, etc.)
+- **H2 Database** (embedded SQL database)
+- JDBC (Java Database Connectivity)
 - SQL queries
 - Object-Oriented Programming (OOP)
 
@@ -61,7 +61,7 @@ Interface preview:
 ## 🗃️ Project Structure
 
 - `Main.java` – entry point of the application
-- `OwnerPanel.java`, `PetPanel.java`, `VisitPanel.java` – GUI tabs
+- `MyPanel.java` – GUI tabs
 - `DatabaseManager.java` – database connection and queries
 - `models/` – data models (Owner, Pet, Visit)
 - `resources/` – icons, images, SQL scripts
@@ -81,7 +81,7 @@ All tables are properly normalized with no duplicate data or unnecessary IDs. Th
 ## 🚀 How to Run
 
 1. Open the project in your IDE (IntelliJ, Eclipse, etc.)
-2. Ensure JDBC driver and database are set up properly
+2. Make sure the **H2 JDBC driver** is included in the project
 3. Run `Main.java`
 4. Use the tab-based interface to navigate through the system
 
@@ -96,4 +96,4 @@ Feel free to fork, contribute, or provide suggestions!
 
 ---
 
-**Made with ❤️ and love for pets**
+**Made with ❤️ for pets**
